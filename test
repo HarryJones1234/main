@@ -1,0 +1,256 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http:-equiv="X-UA-compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--FOr MObile Devices-->
+	<meta name ="description" content="">
+	<meta name ="author" content="">
+	<title>ASM3</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/2style(2).css">
+</head>
+<body>
+  <nav class="navbar navbar-light bg-primary">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+       <span class="glyphicon glyphicon-align-justify"></span>                 </button>
+      <a class="navbar-brand" href="#" id="h1">Crevea.Inc</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav navbar-right">
+     <li><a href="#" style="color:#f59e42;">Home</a></li>
+     <li><a href="#" style="color:#fff;">Our business</a></li>
+     <li><a href="#" style="color:#fff;">About Us</a></li>
+     <li><a href="#" style="color:#fff;">News</a></li>
+     <li><a href="#" style="color:#fff;">Contact</a></li>
+    <li id="search-icon"><span class="glyphicon glyphicon-search"></span></li>
+      </ul>
+    </div>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+   </div>
+</nav>
+     <div class="container-fluid">
+     <div class="row">
+      <img src="Image/Capture.PNG" class="col-xs-12" alt="Bootstrap" >
+       </div>
+      </div>
+      <aside>   
+      
+        <div class="container">  
+      
+          <div class="About-Us">
+        <div class="row">
+        <h3>About Us</h3>
+      <div class="col-sm-6 portfolio-item">
+       <div class="row">
+        <strong>Our goal is "support and connect educational institution, companies across the world by providing highly qualified/skilled human resource for mutual development and consulting services in job and skills training". Achieving this, we hope to contribute to the betterment of society.</strong>
+      </div>
+       <div class="row">
+        <p>Our staff are highly experienced and senior member of diverse backgrounds in educational institutions and companies in Vietnam and other territories across the globe. We could provide superior services to our customers</p>
+      
+        </div>
+        </div>
+         
+         <div class="col-sm-6 portfolio-item">
+        <img src="Image/Capture%20(3).PNG" class="img-responsive" style="width:
+        100%;"> 
+        </div>
+         </div>
+      </div>
+      
+    
+    
+   <div class="row">
+    
+    <artical class="portfolio-item">
+    <img src="Image/Capture(9).PNG" class="img-responsive" id="education">
+     </artical>
+    
+      <artical id="Our-business " class="portfolio-item">
+      <img src="Image/Capture(12).PNG" class="img-responsive" id="business">
+        <h3 id="ÖUr-business">Our business</h3>
+    <div id="Education-consulting">
+    <strong>Education consulting</strong>
+    <p>We offer various services as required from different educational institutional in Vietnam</p>
+    </div>
+  
+     
+     
+    <div id="Business-consulting">
+     <strong>Business consulting</strong>
+    <p>We provide various services according to requests from foreign companies and educational institutions.</p>
+    </div>
+    
+    
+    <div>
+    <img src="Image/Capture(10).PNG" class="icon" id="hand" alt="">
+     </div>
+     
+     <div>
+     <img src="Image/Capture(11).PNG" class="icon" id="book" alt="">
+      </div>
+        </artical>   
+       
+  
+     
+     </div>
+     
+     
+     
+     <h3>News</h3>
+    <h2>latest news</h2> 
+     <div class="row">
+     <artical class="col-sm-3 portfolio-item">
+     <div class="News">
+     <div>
+     <img src="Image/Capture (5).PNG" class="img-responsive" style="width: 100%;" alt="News-picture">
+      </div>
+    <p><strong>Japanese staff agency company visited to Ha Noi</strong></p>
+      <p>read more <span class="glyphicon glyphicon-arrow-right"> </span></p>
+      </div>
+       </artical>
+       
+       <artical class="col-sm-4 portfolio-item">
+       <div class="News">
+       <div>
+        <img src="Image/Capture (6).PNG" class="img-responsive" style="width: 100%;" alt="News-picture2">
+      </div>
+    <p style="font-size: 20px;" ><strong>Taiwanese university visited to Ha Noi.</strong></p>
+        <p>read more <span class="glyphicon glyphicon-arrow-right"> </span></p> 
+        
+         </div>
+         </artical>
+          
+     <artical class="col-sm-5 portfolio-item">
+    <div class="News">
+       <div>
+        <img src="Image/Capture (7).PNG" class="img-responsive" style="width: 100%;" alt="News-picture3">
+     </div>
+    <p><strong>We are pleased to announce the renewal of Creavea Inc.offical website</strong></p>
+        <p>read more <span class="glyphicon glyphicon-arrow-right"> </span></p>
+         </div>
+         </artical>
+       </div> 
+    <div class="container">
+    <div class="Contact">
+    <div class="row">
+    <h3>Contact</h3>
+    <artical class="col-sm-6 portfolio-item">
+    <div class="row">
+    <p><strong>We will connect you with the relevant person in charge. Please click "Send button" after providing your registering input.</strong></p>
+    </div>
+     <div class="row">
+    <form action="process.php">     
+     <input type="text" placeholder="Your Name" >
+     <input type="email" placeholder="Email address">
+     <input type="text" placeholder="Phone number">
+     <p>
+    <textarea name="Message" id="" cols="30" rows="10" placeholder="Your messager" class=""></textarea>
+    </p>
+    </form>
+    <button class="btn btn-warning">Send messager</button>
+       </div>
+     </artical>
+     
+     
+     <artical class="col-sm-6 portfolio-item">
+       <img src="Image/Capture (8).PNG" alt="" id="map">
+          </artical>
+         </div>
+        </div>
+       </div>  
+      </div>
+     </aside>
+      <div class="container-fluid">
+         <footer>
+        <div class="end-part1" style="background-color: #000000;">
+           <div class="container-fluid">
+            <div class="row">
+            
+        <artical class="col-md-4 portfolio-item">
+            <div class="Creavea">
+             <h3>Creavea</h3>
+            <p>Add :No 45c, 210 alley Hoang Quoc Viet street Cau Giay - Ha Noi - Viet Nam</p>
+            <p>TEL : (+84)-989-412-665</p>
+            <p>Email : daisuke.kawashima@crevea.vn</p>
+            </div>
+                </artical>
+       <artical class="col-md-3 portfolio-item">
+        <h3>CATEGORIES</h3>
+           <ul>
+    <p>
+    <a href="#"><li><span class="glyphicon glyphicon-chevron-right"></span>Home</li></a>
+    </p>
+    <p><a href="#"><li><span class="glyphicon glyphicon-chevron-right"></span>Our business</li></a>
+    </p>
+    <p>
+    <a href="#"><li><span class="glyphicon glyphicon-chevron-right"></span>About us</li></a>
+    </p>
+    <p>
+   <a href="#"><li><span class="glyphicon glyphicon-chevron-right"></span>News</li></a>
+     </p>
+     <p>       
+    <a href="#"><li><span class="glyphicon glyphicon-chevron-right"></span>Contact</li></a>
+       </p>
+        </ul>
+                </artical>
+        
+          <artical class="col-md-2 portfolio-item">
+            
+            <h3>Language</h3>
+            <ul>
+                <p>
+                <li><span class="glyphicon glyphicon-chevron-right"></span>English</li>
+                </p>
+                <p>
+                <li><span class="glyphicon glyphicon-chevron-right"></span>Japanese</li>
+                </p>            
+            </ul>
+            
+                </artical>
+       
+         <artical class="col-md-3 portfolio-item">
+           <h3>GET OUR NEWS FROM US</h3>
+           <p>Please enter the email below to not miss the latest news from us.</p>
+         <form action="process.php">     
+           <input type="email" placeholder="Your email enter">
+           <input type="submit" id="submit">
+            </form>
+              </artical>
+            </div>   
+          
+          </div>
+       
+        </div> 
+      <div class="row text-center">
+        <div class="container-fluid"> 
+        <div class="end-part2">    
+     <P>&copy;2018 CREVEA Inc.All rights reserved.</P>
+            </div>
+           </div>
+          </div>
+        </footer>
+      </div>      
+    
+    
+ 
+    
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>   
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

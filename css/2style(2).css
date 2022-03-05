@@ -1,0 +1,314 @@
+@media screen and (max-width: 768px) {
+body{
+    font-size: 20px;
+    }
+#h1{
+    color:#fff;
+  font-size: 30px
+}
+.header{
+    display: block;
+}
+.About-Us{
+    padding:  0px 60px 20px 40px;
+}
+#search-icon{
+    padding:13px;
+    
+}
+#about-us{
+    margin: 0 auto;
+    width: 1000px;
+}
+.text{
+    display: inline;
+}
+#education{
+    width:100%;
+}
+#business{
+    width: 100%; 
+}
+#ÖUr-business{
+    position: absolute;
+    left: 60px;
+    top: 1350px;
+    color: white;
+    display: inline-block;  
+}
+#Education-consulting{
+    position: absolute;
+      left: 60px;
+      top: 1400px;
+      color: white;
+      display: inline-block;
+  }
+#Business-consulting{
+  position: absolute;
+    left: 60px;
+    top: 1500px;
+    color: white;
+    display: inline-block;
+}
+
+.icon{
+    width: 30px;
+   height: 30px;
+  border-radius: 50%;
+}
+#hand{
+    position: absolute;
+    left: 10px;
+    top: 1390px;
+}
+    #book{
+    position: absolute;
+    left: 10px;
+    top: 1500px;
+}
+li{
+    display: inline;
+}
+.Contact{
+padding:10px 25px 0 25px;
+
+}
+#map{
+    float: left;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+}
+.menu{
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+.News{
+    border:1px solid gray;
+}
+.end-part1{
+    background-color: black;
+    color: white;
+}
+.end-part2{
+    background-color: #000000;
+     color:white;
+    border: 1px solid white;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+    body{
+        font-size: 20px;
+        }
+    #h1{
+        color:#fff;
+      font-size: 30px
+    }
+    .header{
+        display: block;
+    }
+    .About-Us{
+        padding:  0px 60px 20px 40px;
+    }
+    #search-icon{
+        padding:13px;
+        
+    }
+    #about-us{
+        margin: 0 auto;
+        width: 1000px;
+    }
+    .text{
+        display: inline;
+    }
+    #education{
+        width:100%;
+    }
+    #business{
+        width: 100%; 
+    }
+    #ÖUr-business{
+        position: absolute;
+        left: 60px;
+        top: 1390px;
+        color: white;
+        display: inline-block;  
+    }
+    #Education-consulting{
+        position: absolute;
+          left: 60px;
+          top: 1450px;
+          color: white;
+          display: inline-block;
+      }
+    #Business-consulting{
+      position: absolute;
+        left: 60px;
+        top: 1590px;
+        color: white;
+        display: inline-block;
+    }
+    
+    .icon{
+        width: 45px;
+       height: 45px;
+      border-radius: 50%;
+    }
+    #hand{
+        position: absolute;
+        left: 10px;
+        top: 1460px;
+    }
+    #book{
+        position: absolute;
+        left: 10px;
+        top: 1600px;
+    }
+    li{
+        display: inline;
+    }
+    .Contact{
+    padding:10px 25px 0 25px;
+    
+    }
+    #map{
+        float: left;
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+    }
+    .menu{
+      flex-wrap: wrap;
+      flex-direction: row-reverse;
+    }
+    .News{
+        border:1px solid gray;
+    }
+    .end-part1{
+        background-color: black;
+        color: white;
+    }
+    .end-part2{
+        background-color: #000000;
+         color:white;
+        border: 1px solid white;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) {
+body{
+    font-size: 20px;
+    }
+#h1{
+    color:#fff;
+  font-size: 30px
+}
+.header{
+    display: block;
+}
+.About-Us{
+    padding:  0px 60px 20px 40px;
+}
+#search-icon{
+    padding:13px;
+    
+}
+#about-us{
+    margin: 0 auto;
+    width: 1000px;
+}
+.text{
+    display: inline;
+}
+#Education-consulting{
+  position: absolute;
+  left: 790px;
+  top: 1200px;
+  color: white;
+  display: inline-block;
+}
+#Business-consulting{
+  position: absolute;
+  left: 790px;
+  top: 1310px;
+  color: white;
+  display: inline-block;
+}
+.icon{
+    width: 50px;
+   height: 50px;
+  border-radius: 50%;
+}
+#education{
+    width:50%;
+    float: left;
+}
+#business{
+        
+        width: 50%; 
+        float: right;
+    }
+#book{
+   position: relative;
+    left: 560px;
+    top: -230px;
+}
+#hand{
+    position: relative;
+    left: 560px;
+    top: -280px;
+}
+li{
+    display: inline;
+}
+.Contact{
+padding:10px 25px 0 25px;
+
+}
+#map{
+    float: left;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+}
+.menu{
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+.News{
+    border:1px solid gray;
+}
+.end-part1{
+    background-color: black;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+.end-part2{
+    background-color: #000000;
+     color:white;
+    border: 1px solid white;
+    padding: 10px 20px 10px 20px;
+}
+}

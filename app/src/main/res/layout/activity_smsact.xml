@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SMSAct">
+
+    <EditText
+        android:id="@+id/input1"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:drawableStart="@drawable/ic_baseline_sms_24"
+        android:drawablePadding="12dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:background="@color/orange_700"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:hint="Recipient" />
+
+    <EditText
+        android:id="@+id/input2"
+        android:layout_width="320dp"
+        android:layout_height="200dp"
+        android:paddingBottom="150dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/orange_200"
+        android:hint="Message"/>
+
+
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="hour" />
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Minute" />
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Second" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:drawableStart="@drawable/ic_calendar"
+        android:drawablePadding="5dp"
+        android:hint="Time(second)"
+        android:inputType="time" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@color/orange_200"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Set Up"
+        android:textColor="@color/white"></Button>
+
+
+</LinearLayout>
